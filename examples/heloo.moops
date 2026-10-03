@@ -1,0 +1,14 @@
+#include <myoops.h>
+
+class Hello{
+    public:
+        void sayHello(){
+            print("Hello World");
+        }
+};
+
+int main(){
+    object h : Hello;
+    h.sayHello();
+    return 0;
+}
